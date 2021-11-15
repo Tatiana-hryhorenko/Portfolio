@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#home" class="logo">Portfolio</a>
+        <div id="menu-icon" class="fas fa-bars"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Hi, I'm <span>Tatiana Hryhorenko</span></h1>
+            <h2>Front-end Developer</h2>
+            <p><span>Html/CSS/Js</span></p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Us</h2>
+            <h1>Tatiana Hryhorenko</h1>
+            <p>I am engaged in HTML-layout of sites. I have a fully cross-browser, responsive and valid layout. At the end of the work, the display of the layout in different browsers on different devices is checked, the code is checked by the validator
+                for compliance with standards, the errors identified are eliminated.</p>
+            <p>
+                <span>Education: Sumy State University (2021)<span>
+            </p>
+            <p> <span>Degree name: Bachelor's degree</span></p>
+            <p><span>Specialization: Computer science</span></p>
+            <a href="#" class="btn">Download Cv</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h1>Skills</h1>
+        </div>
+        <!-- Content -->
+        <div class="skills-content">
+            <div class="skills-bars">
+                <div class="skills-text">
+                    <h2>My Skills</h2>
+                    <p>I analyze and manage the results of my work using the Git version control system.</p>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-html5">
+                        <h3>HTML</h3>
+                    </i>
+                    <span>80%</span>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-css3">
+                        <h3>CSS</h3>
+                    </i>
+                    <span>82%</span>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-js">
+                        <h3>JavaScript</h3>
+                    </i>
+                    <span>66%</span>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="skills-box">
+                    <i class=" fab fa-git-square ">
+                        <h3>Git</h3>
+                    </i>
+                    <span>79%</span>
+                    <div class="percent-bar git-square"></div>
+                </div>
+
+                <div class="skills-box">
+                    <i class="fab fa-github">
+                        <h3>GitHub</h3>
+                    </i>
+                    <span>81%</span>
+                    <div class="percent-bar github-bar"></div>
+                </div>
+                <div class="skills-box">
+                    <i class="fas fa-palette">
+                        <h3>BEM</h3>
+                    </i>
+                    <span>80%</span>
+                    <div class="percent-bar bem-bar"></div>
+                </div>
+
+            </div>
+            <div class="skills-img">
+                <img src="images/skills.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+
+        <div class="heading">
+            <h1>Portfolio</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="portfolio-content">
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="images/portfolio__1.jpg" alt="">
+                </div>
+                <h2><a href="https://github.com/Tatiana-hryhorenko/Elegance_summer">Landing page</a></h2>
+                <p>Adapted for desktop and mobile devices</p>
+            </div>
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="images/portfolio__2.jpg" alt="">
+                </div>
+                <h2><a href="">Online store</a></h2>
+                <p>Adapted for desktop and mobile devices</p>
+            </div>
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="images/portfolio__3.jpg" alt="">
+                </div>
+                <h2>
+                    <a href="">Landing page</a>
+                </h2>
+                <p>Adapted for desktop and mobile devices</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h1>Contact</h1>
+        </div>
+        <!-- Content -->
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+38(050) 889 12 59</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-envelope-open"></i>
+                    <p>tatianahryhorenko@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Ukraine, Dnipro</p>
+                </div>
+                <div class="info-box social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Tatiana-hryhorenko?tab=repositories"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                    <input type="submit" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Front-end developer Hryhorenko Tatiana ♥ All Right Reserved</p>
+    </div>
+
+    <!-- Link To JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
