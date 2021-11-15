@@ -1,0 +1,42 @@
+/* About */
+
+.about {
+    width: 100%;
+    min-height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-img {
+    width: 500px;
+    height: 400px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-size: var(--h2-font);
+    color: var(--primary);
+}
+
+.about-text h1 {
+    font-size: var(--h1-font);
+    font-weight: 600;
+}
+
+.about-text p {
+    font-size: var(--p-font);
+    margin: 1rem 0 var(--m-4);
+    text-align: justify;
+    font-weight: 300;
+}

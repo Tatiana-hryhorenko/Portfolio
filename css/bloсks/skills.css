@@ -1,0 +1,111 @@
+  /* Skills */
+  
+  .skills {
+      width: 100%;
+      min-height: 100vh;
+  }
+  
+  .heading {
+      display: flex;
+      justify-content: center;
+      padding: 1.4rem 0;
+  }
+  
+  .heading h1 {
+      font-size: var(--h1-font);
+      font-weight: 600;
+      border-bottom: 2px solid var(--primary);
+  }
+  
+  .skills-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .skills-img {
+      width: 500px;
+      height: 400px;
+      margin-top: 7.6rem;
+  }
+  
+  .skills-img img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      object-position: center;
+  }
+  
+  .skills-bars {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .skills-text h2 {
+      font-weight: 600;
+  }
+  
+  .skills-text p {
+      font-size: var(--p-font);
+      margin: 1rem 0;
+      max-width: 480px;
+  }
+  
+  .skills-box {
+      position: relative;
+      background: #2c3e50;
+      margin: 1rem 0;
+      height: 3.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      border-radius: 10px;
+  }
+  
+  .skills-box i {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 600;
+      color: #01a29c;
+  }
+  
+  .skills-box h3 {
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+  }
+  
+  .percent-bar {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background: var(--primary);
+      height: 0.34rem;
+      border-radius: 10px;
+  }
+  
+  .html-bar {
+      width: 80%;
+  }
+  
+  .css-bar {
+      width: 82%;
+  }
+  
+  .js-bar {
+      width: 66%;
+  }
+  
+  .git-square {
+      width: 79%;
+  }
+  
+  .github-bar {
+      width: 81%;
+  }
+  
+  .bem-bar {
+      width: 80%;
+  }

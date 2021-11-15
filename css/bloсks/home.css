@@ -1,0 +1,50 @@
+/* Home */
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    color: #e7eafb;
+    display: flex;
+    align-items: center;
+    background-image: url('/images/background_1.jpg');
+    background-size: cover;
+    background-position: right center;
+}
+
+.home-text {
+    max-width: 500px;
+}
+
+.home-text h1 {
+    font-size: var(--h1-font);
+    letter-spacing: var(--spacing);
+}
+
+.home-text span {
+    color: var(--primary);
+}
+
+.home-text h2 {
+    font-size: var(--h2-font);
+    margin: var(--m-1) 0;
+    letter-spacing: var(--spacing);
+}
+
+.home-text p {
+    font-size: var(--p-font);
+    margin-bottom: var(--m-4);
+    line-height: 24px;
+    max-width: 71%;
+    text-transform: uppercase;
+}
+
+.btn {
+    padding: 10px 22px;
+    background: var(--primary);
+    color: #fff;
+}
+
+.btn:hover {
+    background: var(--hover);
+}
