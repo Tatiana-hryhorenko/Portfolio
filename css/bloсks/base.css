@@ -47,3 +47,7 @@ a {
 section {
     padding: 50px 100px;
 }
+
+.home {
+    background-image: url('/images/background_1.jpg');
+}
